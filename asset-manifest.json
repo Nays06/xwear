@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/xwear/static/css/main.36ee42dc.css",
+    "main.js": "/xwear/static/js/main.3411d86b.js",
+    "static/media/RFDewiExpanded-Regular.eot": "/xwear/static/media/RFDewiExpanded-Regular.4d62fa25b8d1b144f29b.eot",
+    "static/media/RFDewiExtended-Regular.eot": "/xwear/static/media/RFDewiExtended-Regular.5d29fb1f1b999c3f8109.eot",
+    "static/media/RFDewiExpanded-Regular.ttf": "/xwear/static/media/RFDewiExpanded-Regular.f1e35f90705795b80526.ttf",
+    "static/media/RFDewiExtended-Regular.ttf": "/xwear/static/media/RFDewiExtended-Regular.7cb69dfeaf9008da4a32.ttf",
+    "static/media/RFDewiExpanded-Regular.woff": "/xwear/static/media/RFDewiExpanded-Regular.fb11b949f18ed9e8de5b.woff",
+    "static/media/RFDewiExtended-Regular.woff": "/xwear/static/media/RFDewiExtended-Regular.5bbfcdc669f9f4401506.woff",
+    "static/media/RFDewiExpanded-Regular.woff2": "/xwear/static/media/RFDewiExpanded-Regular.804c6f7f0e1cb959773b.woff2",
+    "static/media/RFDewiExtended-Regular.woff2": "/xwear/static/media/RFDewiExtended-Regular.4f4d9c1bc3a46b8fbd44.woff2",
+    "index.html": "/xwear/index.html",
+    "main.36ee42dc.css.map": "/xwear/static/css/main.36ee42dc.css.map",
+    "main.3411d86b.js.map": "/xwear/static/js/main.3411d86b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36ee42dc.css",
+    "static/js/main.3411d86b.js"
+  ]
+}
