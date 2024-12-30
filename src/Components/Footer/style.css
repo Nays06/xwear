@@ -1,0 +1,47 @@
+.footer-cont {
+  width: 80%;
+}
+
+.footer-title {
+  font-family: RF Dewi Expanded;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.footer-txt {
+  font-family: RF Dewi Extended;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #dcdce0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.3s;
+
+  input {
+    background: transparent;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 100%;
+    border-bottom: 2px solid #4c4c51;
+    color: white;
+  }
+
+  &:hover {
+    color: white;
+  }
+}
+
+.footer-soc_net {
+  user-select: none;
+  cursor: pointer;
+}

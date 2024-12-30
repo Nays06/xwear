@@ -1,0 +1,24 @@
+.products-header {
+  text-transform: uppercase;
+}
+
+.products-title {
+  font-family: RF Dewi Expanded;
+  font-size: 31px;
+  font-weight: 900;
+  line-height: 42px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.products-link {
+  font-family: RF Dewi Extended;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 23px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-decoration: underline;
+}

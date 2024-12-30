@@ -1,0 +1,29 @@
+.productPage-sizes-but {
+  width: 300px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  font-family: RF Dewi Expanded;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.productPage-button-plus-minus{
+  color: black;
+  background-color: white;
+  padding: 7px 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#count{
+  width: 35px;
+  display: flex;
+  justify-content: center;
+}

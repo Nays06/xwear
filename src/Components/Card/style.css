@@ -1,0 +1,73 @@
+.card {
+  width: 330px;
+}
+
+.card-img{
+  height: 300px;
+}
+
+.card-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-favorite {
+  top: 33px;
+  right: 33px;
+}
+
+.card-title {
+  font-family: RF Dewi Extended;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.card-price-txt {
+  margin-right: 4px;
+  font-family: RF Dewi Extended;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.card-price-value {
+  font-family: RF Dewi Extended;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.products-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.pagination-strelka {
+  height: 14px;
+}
+
+.pagination-pages {
+  display: flex;
+  align-items: center;
+
+  & > div {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+  }
+}

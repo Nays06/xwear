@@ -1,0 +1,52 @@
+.header-cont {
+  width: 80%;
+}
+.header-cont nav {
+  font-family: "RF Dewi Extended";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.header-cont .header-nav {
+  transition: 0.4s;
+}
+.header-cont .header-nav:hover {
+  color: #49d0ff;
+}
+
+.header-price {
+  color: #8c8f96;
+  font-family: "RF Dewi Extended";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 10px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.header-basket_items {
+  width: 25px;
+  height: 25px;
+  font-family: "RF Dewi Extended";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 10px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.reg-but{
+  font-family: "RF Dewi Extended";
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.link{
+  text-decoration: none;
+}

@@ -1,0 +1,158 @@
+/////////////////////////////////////////////////////////////////////////////// BACKGROUND-COLOR
+
+$colors: (
+  black: #121214,
+  white: #ffffff,
+  blue: #49d0ff,
+);
+
+@each $color-name, $color-value in $colors {
+  .bg-#{$color-name} {
+    background-color: $color-value;
+  }
+}
+
+/////////////////////////////////////////////////////////////////////////////// BACKGROUND-COLOR
+
+
+
+/////////////////////////////////////////////////////////////////////////////// DEFAULT STYLES
+
+.m0 {
+  margin: 0;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.df {
+  display: flex;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.aic {
+  align-items: center;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.fdr {
+  flex-direction: row;
+}
+
+.w0 {
+  width: 0;
+}
+
+.wa {
+  width: auto;
+}
+
+.w45p{
+  width: 45%;
+}
+
+.w100p{
+    width: 100%;
+}
+
+.h100p{
+    height: 100%;
+}
+
+.h0 {
+  height: 0;
+}
+
+.ha {
+  height: auto;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.usn {
+  user-select: none;
+}
+
+.posr{
+  position: relative;
+}
+
+.posa{
+  position: absolute;
+}
+
+.ovh{
+  overflow: hidden;
+}
+
+.c-white{
+    color: #ffffff;
+}
+
+.br-50p{
+    border-radius: 50%;
+}
+
+/////////////////////////////////////////////////////////////////////////////// DEFAULT STYLES
+
+
+
+/////////////////////////////////////////////////////////////////////////////// PADDING AND MARGIN
+
+$step: 5px;
+$max-margin: 100px;
+$max-padding: 50px;
+
+@for $i from 0 through ($max-margin / $step) {
+  $margin-value: $i * $step;
+  @if ($margin-value >= 0) {
+    .ml#{$margin-value / 1px} {
+      margin-left: $margin-value;
+    }
+    .mt#{$margin-value / 1px} {
+      margin-top: $margin-value;
+    }
+    .mr#{$margin-value / 1px} {
+      margin-right: $margin-value;
+    }
+    .mb#{$margin-value / 1px} {
+      margin-bottom: $margin-value;
+    }
+  }
+}
+
+@for $i from 0 through ($max-padding / $step) {
+  $padding-value: $i * $step;
+  @if ($padding-value >= 0) {
+    .p#{$padding-value / 1px} {
+      padding: $padding-value;
+    }
+    .pl#{$padding-value / 1px} {
+      padding-left: $padding-value;
+    }
+    .pt#{$padding-value / 1px} {
+      padding-top: $padding-value;
+    }
+    .pr#{$padding-value / 1px} {
+      padding-right: $padding-value;
+    }
+    .pb#{$padding-value / 1px} {
+      padding-bottom: $padding-value;
+    }
+  }
+}
+
+/////////////////////////////////////////////////////////////////////////////// PADDING AND MARGIN

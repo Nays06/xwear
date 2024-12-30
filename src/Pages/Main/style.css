@@ -1,0 +1,52 @@
+.main-content {
+  width: 80%;
+}
+
+.main-go_to_catalog {
+  position: relative;
+  padding-top: 100px;
+}
+
+.go_to_catalog-slide {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 1550px;
+}
+
+.go_to_catalog-title {
+  width: 570px;
+  font-family: "RF Dewi Expanded";
+  font-size: 51px;
+  font-weight: 1000;
+  line-height: 63px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-transform: uppercase;
+}
+
+.go_to_catalog-description {
+  width: 535px;
+  font-family: RF Dewi Extended;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.go_to_catalog-button {
+  width: fit-content;
+  border-radius: 5px;
+  font-family: RF Dewi Expanded;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 20px 40px;
+}

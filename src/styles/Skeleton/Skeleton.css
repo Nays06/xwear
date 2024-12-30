@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "RF Dewi Extended";
+  src: url("../fonts/RFDewiExtended-Regular.eot");
+  src: local("RF Dewi Extended Regular"), local("RFDewiExtended-Regular"),
+    url("../fonts/RFDewiExtended-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/RFDewiExtended-Regular.woff2") format("woff2"),
+    url("../fonts/RFDewiExtended-Regular.woff") format("woff"),
+    url("../fonts/RFDewiExtended-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RF Dewi Expanded";
+  src: url("../fonts/RFDewiExpanded-Regular.eot");
+  src: local("RF Dewi Expanded Regular"), local("RFDewiExpanded-Regular"),
+    url("../fonts/RFDewiExpanded-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/RFDewiExpanded-Regular.woff2") format("woff2"),
+    url("../fonts/RFDewiExpanded-Regular.woff") format("woff"),
+    url("../fonts/RFDewiExpanded-Regular.ttf") format("truetype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
